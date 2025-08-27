@@ -27,3 +27,16 @@
 - Space Complexity: O(n)
 
 ## Visual Representation
+
+- Input Array: [6, 1, 5, 4]
+- Target Value: 10
+
+| Iteration | Index | Value | Hashmap               |
+| --------- | ----- | ----- | --------------------- |
+| 1         | 0     | 6     | {(4,0)}               |
+| 2         | 1     | 1     | {(4,0), (9,1)}        |
+| 3         | 2     | 5     | {(4,0), (9,1), (5,2)} |
+| 4         | 3     | 4     | Key already present   |
+
+- In the 4th iteration, we got the complement which was already there in the hashmap.
+- Hence, we will return [0, 3] as the output.
