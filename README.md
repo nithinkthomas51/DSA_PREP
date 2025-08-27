@@ -1,1 +1,5 @@
-# DSA_PREP
+# DSA PREPARATION
+
+## Problems
+
+- [Two Sum](./TWO_SUM/)
